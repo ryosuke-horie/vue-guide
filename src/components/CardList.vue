@@ -1,11 +1,12 @@
 <script setup lang="ts">
-// import Card from './Card.vue';
-// import RocketIcon from './RocketIcon.vue';
+import Card from './Card.vue';
+import RocketIcon from './RocketIcon.vue';
 </script>
 
 <template>
   <div class="container">
-    <!-- <Card title="Title" class="card">
+    <Card title="Title" class="card">
+      <!-- Cardで囲った部分はSlotの中に入れることができる -->
       <div class="contents">
         ここにさまざまなコンテンツが入ります
         <RocketIcon />
@@ -27,7 +28,7 @@
         <span>Rocket</span>
         <RocketIcon />
       </div>
-    </Card> -->
+    </Card>
   </div>
 </template>
 
