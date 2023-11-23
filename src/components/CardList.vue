@@ -20,6 +20,10 @@ import RocketIcon from './RocketIcon.vue';
         <RocketIcon />
         <RocketIcon />
       </div>
+      <template #footer>
+        <span>this is footer</span>
+        <RocketIcon size="10px" />
+      </template>
     </Card>
 
     <Card title="Icons with Text" class="card with-text-card">
